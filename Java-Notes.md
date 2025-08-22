@@ -1,24 +1,25 @@
-# Java Notes
+# Java Notes: Classes, Objects, and Inheritance
 
-## 1. Data Types
-- int: Integer numbers
-- float: Decimal numbers
-- char: Single character
-- boolean: true/false
+## 1. Classes and Objects
+- **Class**: Blueprint for creating objects; defines properties (variables) and methods (functions).  
+- **Object**: Instance of a class; it holds actual values.  
 
-## 2. Operators
-- Arithmetic: +, -, *, /, %
-- Comparison: ==, !=, >, <, >=, <=
-- Logical: &&, ||, !
-
-## 3. Control Statements
-- if, else, else if
-- switch
-- for, while, do-while
-
-## 4. Functions
-- Syntax:
+**Example:**
 ```java
-returnType functionName(parameters) {
-    // code
+class Car {
+    String color;
+    int speed;
+
+    void display() {
+        System.out.println("Color: " + color + ", Speed: " + speed);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Car myCar = new Car(); // Creating an object
+        myCar.color = "Red";
+        myCar.speed = 100;
+        myCar.display();
+    }
 }
