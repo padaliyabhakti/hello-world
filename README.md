@@ -14,5 +14,4 @@ Goal: Upload my projects and share them with others
 ---
 
 ## Connect with me
-- GitHub Profile: [My GitHub Link](https://github.com/YOUR-USERNAME)
-
+- GitHub Profile: [My GitHub Link]https://github.com/padaliyabhakti
